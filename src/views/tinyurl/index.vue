@@ -20,7 +20,7 @@
 
 <script>
 import { MessageBox, Message } from 'element-ui'
-// import moment from 'moment'
+
 import { getTinyurlAPI } from '@/api/tinyurl'
 import axios from 'axios'
 
@@ -53,6 +53,7 @@ export default {
     }).catch (error => {
            console.log(error)
     })
+
     // axios.defaults.headers.common['Access-Control-Allow-Origin'] = '*';
     // axios.get('https://lvw509jgzi.execute-api.ap-southeast-1.amazonaws.com/Stage/tinyurl/666?original_url=http://www.original.com/132')
     // .then(response => (

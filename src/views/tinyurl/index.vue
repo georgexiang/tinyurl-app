@@ -46,7 +46,7 @@ export default {
 
     getTinyurlAPI(this.listQueryParams).then(response => {
            this.form.message=JSON.stringify(response)
-           this.form.tiny_url='https://lvw509jgzi.execute-api.ap-southeast-1.amazonaws.com/Stage/tinyurl/'+response.data.tiny_id
+           this.form.tiny_url='https://2lf35y92q7.execute-api.ap-southeast-1.amazonaws.com/Stage/'+response.data.tiny_id
           //  response.data.tiny_id
            console.log(response.data)
            this.listLoading = false
